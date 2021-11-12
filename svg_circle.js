@@ -1,9 +1,8 @@
 //circle anim
 // required gsap 3.0,
 //please import gsap before this
-// "use strict";
-// window.addEventListener('load', function () {
-module.exports = function() {
+"use strict";
+window.addEventListener('load', function () {
   ////find it element is exist or not
   let anim1 = document.getElementById("anim_home");
   if (typeof (anim1) != 'undefined' && anim1 != null) {
@@ -64,5 +63,4 @@ module.exports = function() {
       });
     }, 100);
   }
-}
-//});
+});
