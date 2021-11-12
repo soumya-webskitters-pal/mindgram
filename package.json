@@ -1,0 +1,30 @@
+{
+  "name": "js-file-download",
+  "version": "0.4.12",
+  "description": "Javascript function that triggers browser to save javascript-generated content to a file",
+  "main": "svg_circle.js",
+  "scripts": {
+    "lint": "svg_circle.js",
+    "test": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/soumya-webskitters-pal/mindgram.git"
+  },
+  "keywords": [
+    "javascript",
+    "file",
+    "react",
+    "download"
+  ],
+  "author": "Kenneth Jiang <kenneth.jiang@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kennethjiang/js-file-download/issues"
+  },
+  "homepage": "https://github.com/kennethjiang/js-file-download",
+  "typings": "js-file-download.d.ts",
+  "devDependencies": {
+    "eslint": "^5.8.0"
+  }
+}
