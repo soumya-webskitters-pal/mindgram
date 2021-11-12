@@ -1,4 +1,4 @@
-declare module 'svg_circle' {
+declare module 'js-file-download' {
     export default function fileDownload(
         data: string | ArrayBuffer | ArrayBufferView | Blob,
         filename: string,
