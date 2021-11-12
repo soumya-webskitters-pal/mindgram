@@ -1,7 +1,7 @@
 //circle anim
 // required gsap 3.0,
 //please import gsap before this
-//"use strict";
+"use strict";
 window.addEventListener('load', function () {
   ////find it element is exist or not
   let anim1 = document.getElementById("anim_home");
