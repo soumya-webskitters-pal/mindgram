@@ -1,7 +1,7 @@
 //svg anim
+//make sure import 3.js file before it. 
+//cdn link of 3.js: https://cdnjs.cloudflare.com/ajax/libs/three.js/r70/three.min.js
 function create_canvas(canvas_target) {
-  "use strict";
-  window.addEventListener('load', function () {
     if (typeof (canvas_target) != 'undefined' && canvas_target != null) {
       //grab html element to attach to.
       var $container = document.getElementById(canvas_target);
@@ -102,5 +102,4 @@ function create_canvas(canvas_target) {
       }
       window.addEventListener('resize', onWindowResize, false);
     }
-  });
 }
