@@ -3,6 +3,7 @@
 //cdn link of 3.js: https://cdnjs.cloudflare.com/ajax/libs/three.js/r70/three.min.js
 function create_canvas(canvas_target) {
     if (typeof (canvas_target) != 'undefined' && canvas_target != null) {
+         window.addEventListener('load', function () {
       //grab html element to attach to.
       var $container = document.getElementById(canvas_target);
       var renderer, scene, camera;
@@ -101,5 +102,6 @@ function create_canvas(canvas_target) {
         renderer.setSize($container.clientWidth, $container.clientHeight);
       }
       window.addEventListener('resize', onWindowResize, false);
+             });
     }
 }
