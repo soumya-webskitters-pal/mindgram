@@ -1,6 +1,7 @@
 //circle anim
 //please import gsap before this, required gsap 3.0,
 function create_svg(svg_target) {
+    "use strict";
   window.addEventListener('load', function () {
     if (typeof (svg_target) != 'undefined' && svg_target != null) {
       ////find it element is exist or not
