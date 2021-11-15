@@ -2,7 +2,9 @@
 //please import gsap before this, 
 //gsap cdn link: https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js
 function create_svg(svg_target) {
+    
     if (typeof (svg_target) != 'undefined' && svg_target != null) {
+          window.addEventListener('load', function () {
       ////find it element is exist or not
       let anim1 = document.getElementById(svg_target);
       //element found
@@ -61,5 +63,6 @@ function create_svg(svg_target) {
           }
         });
       }, 100);
+          });
     }
 }
